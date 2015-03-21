@@ -1,6 +1,7 @@
 ## makeCacheMatrix and cachesolve are a pair of functions that together allow the inverse of 
 ## an invertible matrix to be cached in memory so that the inverse need not be recalculated if
-## it's called more than once
+## it's called more than once. The functions and comments are based off of the makeVector and 
+## cachemean functions and commentary on the assignment webpage.
 
 
 ## makeCacheMatrix creates a special "matrix", which is really a list containing functions to
